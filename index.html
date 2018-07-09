@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+</head>
+
+<body>
+        <div style="margin:15px; display:flex; justify-content:center; flex-direction:row; width:100%; margin:5px auto;">
+               <div style="display: flex; flex-direction: column">
+                <h4>Skills Developed</h4>
+                    <ul>
+                        <li>Object Oriented Programming </li>
+                    <li>DOM Manipulation</li>
+                    <li>jQuery and Bootstrap</li>
+                </ul>
+            </div>
+        </div>
+            
+    <div class="container">
+
+            <div style=" margin: 15px;height: 150px; background-color:#0094D8; padding: 15px 0px ">
+                <div style="display:flex; justify-content: space-evenly">
+                    <div>
+                        <h5>Rectangle</h5>
+                        <input type="text" name="rectX" id="rectX" placeholder="X Value">
+                        <input type="text" name="rectY" id="rectY" placeholder="Y Value">
+                        <button class="btn btn-danger btn-sm" type="submit" id="submitRectangle">Submit</button>
+                    </div>
+                    <div>
+                        <h5>Square</h5>
+                        <input type="text" name="sideLengthSquare" id="sideLengthSquare" placeholder="Side Length">
+                        <button class="btn btn-danger btn-sm" type="submit" id="submitSquare">Submit</button>
+                    </div>
+                </div>
+                <div style="display:flex; justify-content: space-around">
+                    <div>
+                        <h5>Circle</h5>
+                        <input type="text" name="radius" id="radius" placeholder="Radius">
+                        <button class="btn btn-danger btn-sm" type="submit" id="submitCircle">Submit</button>
+                    </div>
+                    <div>
+                        <h5>Isoceles Right Triangle</h5>
+                        <input type="text" name="heightTriangle" id="heightTriangle" placeholder="Height">
+                        <button class="btn btn-danger btn-sm" type="submit" id="submitTriangle">Submit</button>
+                    </div>
+
+                </div>
+         
+        </div>
+        
+    
+    
+        
+    <div id="container">
+        
+        <div id="place">
+
+        </div>
+
+        <div id="sidepanel" style="display:flex;flex-direction: column; color:#024F6D ">
+            Shape Name:
+            <p id="shapeName"></p>
+            Width:
+            <p id="width"></p>
+            Height:
+            <p id="height"></p>
+            Radius:
+            <p id="radius"></p>
+            Area:
+            <p id="area"></p>
+            Perimeter
+            <p id="perimeter"></p>
+        </div>
+        </div>
+
+    </div>
+    </div>
+    <script src="app.js"></script>
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+</body>
+
+</html>
